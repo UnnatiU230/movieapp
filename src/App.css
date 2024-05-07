@@ -1,4 +1,8 @@
-.App {
+body{
+  background-color: black;
+  color: white;
+}
+h1{
   text-align: center;
 }
 
@@ -15,9 +19,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-height:50vh;
+
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -36,3 +39,51 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: black;
+
+}
+
+
+.movieContainer {
+  background-color: #0d0c0c;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  margin-right: 20px;
+  color: white;
+  
+  
+}
+
+.movieContainer img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.movieContainer h5 {
+  margin-bottom: 5px;
+  text-wrap: wrap;
+  color: azure;
+  text-align: justify;
+}
+
+.movieContainer h5 {
+  color: #fffafa;
+  text-align: justify;
+  
+}
+h6{
+  text-align: left;
+}
+
